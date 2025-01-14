@@ -17,6 +17,7 @@ For Hurricane Track Analysis, navigate to the HurricaneTracks directory in the A
 ```
 cd HurricaneTracks
 ```
+Once RiskDataScienceAI\HurricaneTracks is set as the working directory, run the following scripts:
 * get gis data on hurricane tracks from NHC API:
 ```
 python -W ignore read_nhc_api.py
