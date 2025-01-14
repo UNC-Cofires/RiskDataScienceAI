@@ -1,5 +1,5 @@
 # RiskDataScienceAI
-code for DATA/ENVR/ENEC 543
+Contains code for analysis covered in DATA/ENVR/ENEC 543. 
 
 ### Dependencies
 
@@ -13,7 +13,7 @@ Python Libraries:
 
 ### Executing program
 
-* For Hurricane Track Analysis:
+For Hurricane Track Analysis, navigate to the HurricaneTracks directory in the Anaconda prompt using the command:
 ```
 cd HurricaneTracks
 ```
@@ -28,15 +28,4 @@ python -W ignore combine_nhc_tracks.py
 * create tropical cyclone hazard figures:
 ```
 python -W ignore explore_hurricane_tracks.py
-```
-
-* go to US Fire Service data website at https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.6:
-* download fire data file FPA_FOD_20221014.gpkg, put in repository
-* disaggregate file into state-level shapefiles using
-```
-python -W ignore spark_disagg.py
-```
-* create html files mapping wildfire data:
-```
-python -W ignore spark_analysis.py
 ```
